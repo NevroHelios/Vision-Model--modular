@@ -1,6 +1,6 @@
-# Visioon Model - Modular
+# Vision Model - Modular
 
-Welcome to the Visioon Model repository! This repository contains modular code for training and deploying computer vision models.
+Welcome to the Visioon Model repository! This repository contains modular code for training and testing computer vision models.
 
 ## Directory Structure
 

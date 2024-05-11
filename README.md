@@ -39,6 +39,7 @@ To set up the environment for running the code, follow these steps:
    ```venv\Scripts\activate      # For Windows```
 
 3. **Install Dependencies**: Install the required dependencies by running:
+   
    ``` pip install -r requirements.txt ```
 
 ## Training the Model
@@ -48,12 +49,12 @@ To train the model, follow these steps:
 1. **Data Setup**: Set up the dataset using the `data_setup.py` script or provide the necessary data in the appropriate format.
 
 2. **Training Script**: Run the training script:
+   
    ``` python going_modular/train.py --learning_rate 0.01 --batch_size 32 --num_epochs 5 ```
 
 ## Making Predictions
 
 To make predictions using the trained model, you can use the `predict.py` script.
 
-  ```
-  python going_modular/predict.py --img <file-name>.<type>
-  ```
+
+   ```  python going_modular/predict.py --img <file-name>.<type> ```
